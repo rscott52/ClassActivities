@@ -1,0 +1,32 @@
+* {
+  background: orange;
+  padding: 0;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px  grey;
+  border-style: solid;
+}
+
+.colors {
+  color: blue;
+}
+
+.sports {
+  color: red;
+}
+.sports > ol {
+  text-align: center;
+}
+
+p {
+  color: green;
+}
+
+.links {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+a:hover {
+color: yellow;
+}
