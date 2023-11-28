@@ -27,6 +27,6 @@ let annualSalary = 0;
 for (let gross of checks) {
   let net = gross - 3;
   annualSalary += net;
-};
+}
 
 console.log(annualSalary);
